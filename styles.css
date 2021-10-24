@@ -11,7 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6 span {
+h1, h2, h3, h4, h5, h6, span {
 
     color:#242424;
     text-align: center;
@@ -105,7 +105,8 @@ margin-bottom: 20px;
 
 nav {
     height: 100px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -131,6 +132,10 @@ nav {
     transition: all 300ms ease;
 }
 
+.nav__link--anchor-primary:hover {
+    background-color: #5d3eff;
+}
+
 .personal_logo {
     font-size: 24px;
     margin:0 12px;
@@ -141,7 +146,7 @@ nav {
 /* ABOUT ME */
 
 #about-me {
-    min-width: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -410,11 +415,11 @@ height: 70px;
 }
 
 .footer_row {
-padding: 8% 0;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+padding: 8% 0;
 }
 
 .footer_social__link,
@@ -478,6 +483,7 @@ opacity: 1;
         left: 30px;
         padding-right: 30px;
     }
+
 }
 
 /*Small Phones*/
@@ -512,4 +518,13 @@ opacity: 1;
         text-align: center;
         margin: 12px 0;
     }
+
+    .language_name {
+        position: absolute;
+        bottom: 0;
+        transform: scale(0);
+        transition: all 300ms;
+        font-size: 14px;
+        opacity: 0;
+        }
 }
