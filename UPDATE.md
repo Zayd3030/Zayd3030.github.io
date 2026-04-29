@@ -1,28 +1,13 @@
-Please make the following changes to the site:
+Add OG image meta tags to the <head> of index.html. The OG image is located at /assets/og.png. Use the following tags:
 
-1. STATS BAR — Change "Started Coding" year to 2013, and the label to "13 Years Coding" (or calculate accordingly)
+<meta property="og:title" content="Zayd Hussain — Software Engineer & Founder" />
+<meta property="og:description" content="Software Engineer and co-founder of VZN Media. Building software and growing brands." />
+<meta property="og:image" content="https://zaydhussain.co.uk/assets/og.png" />
+<meta property="og:url" content="https://zaydhussain.co.uk" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Zayd Hussain — Software Engineer & Founder" />
+<meta name="twitter:description" content="Software Engineer and co-founder of VZN Media. Building software and growing brands." />
+<meta name="twitter:image" content="https://zaydhussain.co.uk/assets/og.png" />
 
-2. ADD 3 NEW PROJECTS to the Engineering section (add these after ExoCard, before the rest):
-
-   Project: House of Ab Scent Finder
-   GitHub: https://github.com/Zayd3030/scent-finder
-   Live: https://scents.houseofab.uk/
-   Fetch the README or repo details to get the tech stack, otherwise use: HTML, CSS, JavaScript
-
-   Project: AI Content Detector (Honours Project)
-   GitHub: https://github.com/Zayd3030/ai-content-detector
-   Live: none
-   Fetch the README or repo details to get the tech stack
-
-   Project: AI Travel Itinerary (Group Project)
-   GitHub: https://github.com/Group-8-Travel-Itinerary/Travel-Itinerary
-   Live: none
-   Fetch the README or repo details to get the tech stack
-
-3. PROJECT ORDER — Reorder the engineering project cards so the first four are: ExoCard, House of Ab Scent Finder, AI Content Detector, AI Travel Itinerary — then the rest follow in any order
-
-4. VZN MEDIA SECTION — Update the stats to: 30M+ Views Generated, 800% Average Growth
-
-5. VZN MEDIA BUTTON — Change the URL on the "Visit" button from vzn-media.com to vznmedia.com
-
-6. At the bottom change © 2025 Zayd Hussain · Built by Zayd to © 2026 Zayd Hussain · Built by Zayd Hussain
+Do not change anything else in the file.
